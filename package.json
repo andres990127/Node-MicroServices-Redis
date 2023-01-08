@@ -1,0 +1,25 @@
+{
+  "name": "node-microservices-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres990127/Node-MicroServices-Redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres990127/Node-MicroServices-Redis/issues"
+  },
+  "homepage": "https://github.com/andres990127/Node-MicroServices-Redis#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "swagger-ui-express": "^4.6.0"
+  }
+}
