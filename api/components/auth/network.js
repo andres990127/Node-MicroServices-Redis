@@ -18,9 +18,11 @@ router.get('/', (req, res) =>{
 router.post('/login', (req, res) =>{
     controller.login(req.body.username, req.body.password)
         .then(data => {
+            console.log(data)
             response.success(req, res, data, 200);
         }) 
         .catch(e => {
+            console.log(e)
             response.error(req, res, e.message, 400)
         })
 })
