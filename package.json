@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/index.js",
+    "db": "nodemon mysql/index.js",
+    "post": "nodemon post/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "mysql": "^2.18.1",
     "nanoid": "^3.3.4",
     "nodemon": "^2.0.20",
+    "request": "^2.88.2",
     "swagger-ui-express": "^4.6.0"
   }
 }
